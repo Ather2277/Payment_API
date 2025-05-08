@@ -61,7 +61,7 @@ app.post("/verification", (req, res) => {
 app.post("/razorpay", async (req, res) => {
   try {
     const { amount } = req.body;
-
+    console.log(amount)
     if (!amount || isNaN(amount) || amount <= 0) {
       return res.status(400).json({ message: "Invalid amount" });
     }
