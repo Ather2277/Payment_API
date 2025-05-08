@@ -15,7 +15,8 @@ app.use(cors({
   origin: [
     "http://localhost:3000",
     "http://localhost:8080",
-    "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app/" // ✅ Add your deployed frontend here
+    "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app/",
+    "https://fashion-frontend-ten.vercel.app/"// ✅ Add your deployed frontend here
   ],
   methods: ["GET", "POST"],
   credentials: true
