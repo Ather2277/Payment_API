@@ -15,12 +15,14 @@ app.use(cors({
   origin: [
     "http://localhost:3000",
     "http://localhost:8080",
-    "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app/" // ✅ Add your deployed frontend here
+    "https://fashion-frontend-ten.vercel.app",
+    "https://fashion-frontend-git-main-athers-projects-feeec95d.vercel.app",
+    "https://fashion-frontend-487l6byup-athers-projects-feeec95d.vercel.app",
+    "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app"
   ],
   methods: ["GET", "POST"],
   credentials: true
 }));
-
 app.use(bodyParser.json());
 
 // 🔐 Initialize Razorpay using env vars (set these in Render dashboard)
