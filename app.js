@@ -19,10 +19,13 @@ app.use(cors({
     "https://fashion-frontend-git-main-athers-projects-feeec95d.vercel.app",
     "https://fashion-frontend-487l6byup-athers-projects-feeec95d.vercel.app",
     "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app",
-    "https://suvastra.cloud/"
+    "https://suvastra.cloud",
+    "https://payment-api-6yfs.onrender.com"
   ],
-  methods: ["GET", "POST"],
-  credentials: true
+  methods: ["GET", "POST", "OPTIONS"],
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization', 'x-razorpay-signature'],
+  exposedHeaders: ['Content-Range', 'X-Content-Range']
 }));
 app.use(bodyParser.json());
 
