@@ -20,7 +20,8 @@ app.use(cors({
     "https://fashion-frontend-487l6byup-athers-projects-feeec95d.vercel.app",
     "https://fashion-frontend-7uumcgi78-athers-projects-feeec95d.vercel.app",
     "https://suvastra.cloud",
-    "https://payment-api-6yfs.onrender.com"
+    "https://payment-api-6yfs.onrender.com",
+    "https://www.suvastra.cloud"
   ],
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true,
